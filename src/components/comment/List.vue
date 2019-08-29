@@ -7,16 +7,16 @@
 </template>
 
 <script>
-  import Item from './Item'
+import Item from './Item'
 
-  export default {
-    props: {
-      comments: Array,
-      deleteComment: Function
-    },
-    name: 'List',
-    components: {
-      Item
-    }
+export default {
+  props: {
+    comments: Array,
+    deleteComment: Function
+  },
+  name: 'List',
+  components: {
+    Item
   }
+}
 </script>
