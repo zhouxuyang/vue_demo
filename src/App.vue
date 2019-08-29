@@ -1,20 +1,23 @@
 <template>
   <div id="app">
-    <UserComment/>
+    <!-- <UserComment/> -->
+    <ToDo/>
   </div>
 </template>
 
 <script>
-  import HelloWorld from './components/HelloWorld'
-  import UserComment from './components/comment/UserComment'
+import HelloWorld from './components/HelloWorld'
+import UserComment from './components/comment/UserComment'
+import ToDo from './components/todo/ToDo'
 
-  export default {
-    name: 'App',
-    components: {
-      HelloWorld,
-      UserComment
-    }
+export default {
+  name: 'App',
+  components: {
+    HelloWorld,
+    UserComment,
+    ToDo
   }
+}
 </script>
 
 <style>
